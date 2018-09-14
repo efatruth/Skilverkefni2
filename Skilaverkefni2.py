@@ -63,5 +63,5 @@ def villa(error):
 def static_skrar(skra):
     return static_file(skra, root='Skilaverkefni2_myndir')
 
-run()#hægt að keyra run án parametra
-#run(host='0.0.0.0', port=os.environ.get('PORT'))
+
+run(host='0.0.0.0', port=os.environ.get('PORT'),reloder=True)
